@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Noon Designs</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    body {
+      background: url("images/output-onlinepngtools.png") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      color: #333;
+    }
+
+
+
+
+
+    .contact-header {
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+
+    .contact-header h2 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #222;
+      letter-spacing: 0.15em;
+      margin: 0;
+    }
+
+    .overlay {
+      display: flex;
+      justify-content: center;
+      padding: 30px 20px 60px;
+    }
+
+    .contact-info {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info p {
+      font-size: 1rem;
+      margin: 15px 0;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .contact-info strong {
+      display: inline-block;
+      min-width: 120px;
+    }
+
+    .contact-info a {
+      color: #003366;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav-left, .nav-right {
+        margin: 5px 0;
+      }
+      .contact-header h2 {
+        font-size: 2rem;
+      }
+    }
+       @media (max-width: 768px) {
+  /* Stack nav items */
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .nav-left, .nav-right {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .nav-logo img {
+    height: 80px;
+  }
+
+  .project-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .overlay {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+
+  .modal img {
+    width: 90vw;
+  }
+
+  footer div {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-left: 0 !important;
+  }
+
+  footer p, footer a {
+    font-size: 1rem !important;
+  }
+
+  footer img {
+    width: 200px;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="main-header">
+    <nav class="nav-container">
+      <div class="nav-left">
+        <a href="index.html">ABOUT US</a>
+        <a href="projects.html">PROJECTS</a>
+      </div>
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="images/aakar-bg.jpg" alt="Logo" />
+        </a>
+      </div>
+      <div class="nav-right">
+        <a href="services.html">SERVICES</a>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Title -->
+  <section class="contact-header">
+    <h2>CONTACT US</h2>
+  </section>
+
+  <!-- Contact Details -->
+  <div class="overlay">
+    <section class="contact-info">
+      <p><strong>📍 Address:</strong>Katraj, Pune</p>
+      <p><strong>📱 Project Inquiries:</strong> +91 7262013760</p>
+      <p><strong>✉️ Email:</strong> <a href="mailto:aakararchitect6@gmail.com">aakararchitect6@gmail.com</a></p>
+      <p><strong>📷 Instagram:</strong> <a href="https://www.instagram.com/aakar.architect_/" target="_blank">@aakar.architect_</a></p>
+    </section>
+  </div>
+
+</body>
+</html>

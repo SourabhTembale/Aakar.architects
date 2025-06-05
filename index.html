@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AAkar Architects</title>
+  <link rel="stylesheet" href="css/styles.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bentham&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<style>
+   @media (max-width: 768px) {
+  /* Stack nav items */
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .nav-left, .nav-right {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .nav-logo img {
+    height: 80px;
+  }
+
+  .project-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .overlay {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+
+  .modal img {
+    width: 90vw;
+  }
+
+  footer div {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-left: 0 !important;
+  }
+
+  footer p, footer a {
+    font-size: 1rem !important;
+  }
+
+  footer img {
+    width: 200px;
+  }
+}
+
+</style>
+</head>
+<body>
+<header class="main-header">
+  <nav class="nav-container">
+    <div class="nav-left">
+      <a href="index.html">ABOUT US</a>
+      <a href="projects.html">PROJECTS</a>
+    </div>
+
+    <div class="nav-logo">
+      <a href="index.html">
+        <img src="images/aakar-bg.jpg" alt="Logo" />
+      </a>
+    </div>
+
+    <div class="nav-right">
+      <a href="services.html">SERVICES</a>
+      <a href="contact.html">CONTACT US</a>
+    </div>
+  </nav>
+</header>
+
+
+<!-- Add this section where you'd like the projects to appear -->
+
+<div class="hero">
+    <div class="overlay">
+      <h1>Our Studio</h1>
+      <p>Based in Pune...</p>
+      <p>We are a passionate team of Architects and Interior Designers dedicated to delivering spaces that seamlessly blend aesthetics with functionality. With a sharp eye for detail and a commitment to quality, we specialize in crafting both interior and architectural solutions tailored to our clients' lifestyles and preferences.</p> <p>Our services span the full spectrum of design and execution — from concept to completion. Whether it's a luxury residence, a stylish apartment, a modern office space, or a boutique commercial project, we begin by helping our clients visualize their dream space through 3D renders, material boards, mood concepts, and detailed technical drawings.</p> <p>From there, we ensure seamless execution with close supervision, premium material selection, and uncompromising attention to detail. Every project is guided by our belief that great design is a dialogue between our vision and yours — where comfort meets elegance, and every square foot is optimized to its fullest potential.</p> <p>We pride ourselves on creating spaces that are uniquely personal yet carry our signature touch of sophistication and timeless design. Our portfolio reflects a blend of contemporary style infused with classic elements — delivering warm, inviting, and refined environments that stand the test of time.</p> <p>Whether you're building from the ground up or transforming your existing space, our expertise in both interior and architectural design ensures a cohesive and elevated result.</p> <p>We’d love to bring your vision to life. Looking to collaborate?
+      <br><br>
+        <button class="contact-button">
+        <a href="contact.html">Contact Us</a>
+      </button>
+
+    </div>
+  </div>
+
+
+
+<footer style="background-color: #f0f4f8; padding: 40px 20px;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; text-align: left;">
+    
+    <!-- Left Column -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px; margin-left:150px">
+      <p style="margin: 8px 0; font-weight: bold; color:black; font-size:25px;"><a href="about.html" style="text-decoration: none; color: inherit;">ABOUT US</a></p>
+      <p style="margin: 8px 0; color:black; font-size:25px;"><a href="projects.html" style="text-decoration: none; color: inherit;">PROJECTS</a></p>
+      <p style="margin: 8px 0; color:black; font-size:25px;"><a href="services.html" style="text-decoration: none; color: inherit;">SERVICES</a></p>
+      <p style="margin: 8px 0; color:black; font-size:25px;"><a href="contact.html" style="text-decoration: none; color: inherit;">CONTACT US</a></p>
+    </div>
+
+    <!-- Logo -->
+    <div style="flex: 1; text-align: center; min-width: 200px; margin-bottom: 20px;">
+      <img src="images/aakar-bg.jpg" alt="Logo" style="width: 250px; height: auto;" />
+    </div>
+
+    <!-- Right Column -->
+    <div style="flex: 1.5; min-width: 250px; color:black;">
+      <p style="color:black; font-size:20px;">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:aakararchitect6@gmail.com" style="text-decoration: none; color: inherit;"> aakararchitect6@gmail.com</a>
+      </p>
+      <p style="color:black; font-size:20px;"><i class="fas fa-map-marker-alt"></i> Katraj, Pune.</p>
+      <p style="color:black; font-size:20px;">
+        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/aakar.architect_/" style="text-decoration: none; color: inherit;"> @aakar.architect_</a>
+      </p>
+      <p style="color:black; font-size:20px;"><i class="fas fa-phone"></i> +91 7262013760</p>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script>
+  const sections = document.querySelectorAll("section");
+  window.addEventListener("scroll", () => {
+    sections.forEach(sec => {
+      if (sec.getBoundingClientRect().top < window.innerHeight - 100) {
+        sec.classList.add("visible");
+      }
+    });
+  });
+
+
+</script>
+
+</body>
+</html>
