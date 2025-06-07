@@ -4,11 +4,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Bentham", serif; /* Ensure this is set */
+  font-family: "Bentham", serif; 
 }
 
 .outfit-custom {
-  font-family: "Outfit", sans-serif;
+   font-family: "Bentham", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -23,7 +23,7 @@ body {
   background-color: #f0f4f8;
   color: #333;
   line-height: 1.6;
-  font-family: "Bentham", serif;/* Add this line */
+   font-family: "Bentham", serif;
 }
 
 /* TYPOGRAPHY */
@@ -41,7 +41,7 @@ p {
 .main-header {
   background-color: #f0f4f8;
   padding: 20px 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .nav-container {
