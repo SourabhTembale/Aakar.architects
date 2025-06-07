@@ -79,7 +79,9 @@ p {
   height: 120px; /* 👈 Increased logo height */
 }
 
-
+.nav-logo img.enlarged {
+  height: 120px; /* bigger size for initial view */
+}
 
 /* GENERAL SECTION STYLING */
 section {
